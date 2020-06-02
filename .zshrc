@@ -29,6 +29,6 @@ source /usr/share/nvm/init-nvm.sh
 # fpath
 fpath=($fpath "/home/koyu/.zfunctions")
 
-# set spaceship zsh as a prompt
+# set spaceship as prompt
 autoload -U promptinit; promptinit
 prompt spaceship

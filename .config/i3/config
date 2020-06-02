@@ -178,7 +178,7 @@ bindsym $mod+k exec surf https://koyu.space/web # launch koyu.space (mod+k)
 
 # shutdown and reboot bindsyms
 # those resemble my display manager "ly" except that you
-# have to press mod+shift for so you don't power down your
+# have to press mod+shift so you don't power down your
 # machine by accident
 bindsym $mod+Shift+F1 exec systemctl poweroff # shutdown
 bindsym $mod+Shift+F2 exec systemctl reboot # reboot
