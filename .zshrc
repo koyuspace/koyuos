@@ -32,3 +32,8 @@ fpath=($fpath "/home/koyu/.zfunctions")
 # set spaceship as prompt
 autoload -U promptinit; promptinit
 prompt spaceship
+
+# redefine _systemctl_unit_state, see https://github.com/ohmyzsh/ohmyzsh/issues/8751#issuecomment-602518773
+_systemctl_unit_state() {
+  typeset -gA _sys_unit_state
+  _sys_unit_state=( $(__systemctl list-unit-files "$PREFIX*" | awk '{print $1, $2}') ) }
