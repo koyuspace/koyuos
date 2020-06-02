@@ -180,8 +180,8 @@ bindsym $mod+k exec surf https://koyu.space/web # launch koyu.space (mod+k)
 # those resemble my display manager "ly" except that you
 # have to press mod+shift so you don't power down your
 # machine by accident
-bindsym $mod+Shift+F1 exec systemctl poweroff # shutdown
-bindsym $mod+Shift+F2 exec systemctl reboot # reboot
+bindsym $mod+Shift+F1 exec sudo poweroff # shutdown
+bindsym $mod+Shift+F2 exec sudo reboot # reboot
 
 # remove window borders
 new_window pixel 0
