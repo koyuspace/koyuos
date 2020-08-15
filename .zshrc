@@ -29,10 +29,6 @@ source /usr/share/nvm/init-nvm.sh
 # fpath
 fpath=($fpath "/home/koyu/.zfunctions")
 
-# set spaceship as prompt
-autoload -U promptinit; promptinit
-prompt spaceship
-
 # redefine _systemctl_unit_state, see https://github.com/ohmyzsh/ohmyzsh/issues/8751#issuecomment-602518773
 _systemctl_unit_state() {
   typeset -gA _sys_unit_state
