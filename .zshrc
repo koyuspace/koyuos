@@ -11,6 +11,7 @@ plugins=(
   git
   python
   archlinux
+  thefuck
 )
 
 # source oh-my-zsh
@@ -28,6 +29,9 @@ source /usr/share/nvm/init-nvm.sh
 
 # fpath
 fpath=($fpath "/home/koyu/.zfunctions")
+
+# PATH
+export PATH=$PATH:/home/koyu/.local/bin/
 
 # redefine _systemctl_unit_state, see https://github.com/ohmyzsh/ohmyzsh/issues/8751#issuecomment-602518773
 _systemctl_unit_state() {
