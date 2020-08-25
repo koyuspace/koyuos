@@ -10,15 +10,14 @@ ZSH_THEME="spaceship"
 plugins=(
   git
   python
-  ubuntu
   thefuck
 )
 
 # source oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-# vim is the default editor
-export EDITOR=vim
+# nano is the default editor
+export EDITOR=nano
 
 # aliases
 alias cls="tput reset"
@@ -38,3 +37,8 @@ export PATH=$PATH:/home/koyu/.local/bin/
 _systemctl_unit_state() {
   typeset -gA _sys_unit_state
   _sys_unit_state=( $(__systemctl list-unit-files "$PREFIX*" | awk '{print $1, $2}') ) }
+
+# eopkg
+autoload bashcompinit
+bashcompinit
+source /usr/share/bash-completion/completions/eopkg
