@@ -11,6 +11,7 @@ plugins=(
   git
   python
   thefuck
+  fedora
 )
 
 # source oh-my-zsh
@@ -37,8 +38,3 @@ export PATH=$PATH:/home/koyu/.local/bin/
 _systemctl_unit_state() {
   typeset -gA _sys_unit_state
   _sys_unit_state=( $(__systemctl list-unit-files "$PREFIX*" | awk '{print $1, $2}') ) }
-
-# eopkg
-autoload bashcompinit
-bashcompinit
-source /usr/share/bash-completion/completions/eopkg
