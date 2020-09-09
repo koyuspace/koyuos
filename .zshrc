@@ -11,7 +11,7 @@ plugins=(
   git
   python
   thefuck
-  fedora
+  dnf
 )
 
 # source oh-my-zsh
