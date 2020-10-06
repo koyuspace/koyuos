@@ -163,6 +163,7 @@ exec unclutter
 exec feh --bg-scale /home/koyu/.bg.jpg
 exec telegram-desktop -startintray
 exec polybar koyu
+exec xfsettingsd
 
 # custom bindsyms
 # gnome terminal is bae
