@@ -5,12 +5,12 @@
 [colors]
 ;background = ${xrdb:color0:#222}
 background = #223
-background-alt = #444
+background-alt = #334
 ;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
-foreground-alt = #555
+foreground-alt = #ccc
 primary = #fe53e1
-secondary = #52e0a
+secondary = #52e0aa
 alert = #bd2c40
 
 [bar/koyu]
@@ -166,6 +166,8 @@ icon-next = 
 label-song-maxlen = 25
 label-song-ellipsis = true
 
+port = 6600
+
 [module/xbacklight]
 type = internal/xbacklight
 
@@ -206,7 +208,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wls3
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -228,7 +230,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp3s0
+interface = ens2
 interval = 3.0
 
 format-connected-underline = #55aa55

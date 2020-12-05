@@ -12,7 +12,7 @@ export PS1="\[\e[31m\][\[\e[m\]\[\e[33m\]\u\[\e[m\]\[\e[32m\]@\[\e[m\]\[\e[34m\]
 source /usr/share/nvm/init-nvm.sh
 
 # editor
-export EDITOR=nano
+export EDITOR=vi
 
 # aliases
 alias resource="source ~/.bashrc"
