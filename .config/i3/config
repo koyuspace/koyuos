@@ -69,9 +69,9 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -162,12 +162,14 @@ exec xcompmgr
 exec unclutter
 exec feh --bg-scale /home/koyu/.bg.jpg
 exec telegram-desktop -startintray
+exec dropbox
 exec polybar koyu
 exec xfsettingsd
+exec synclient VertScrollDelta=-75
 
 # custom bindsyms
 # gnome terminal is bae
-bindsym $mod+b exec google-chrome-stable # launch chrome (mod+b)
+bindsym $mod+b exec firefox # launch firefox (mod+b)
 bindsym $mod+t exec telegram-desktop # launch telegram (mod+t)
 bindsym $mod+m exec spotify # launch spotify (mod+m)
 bindsym $mod+l exec i3lock-fancy # lock screen (mod+l)
@@ -175,7 +177,8 @@ bindsym $mod+n exec gnome-terminal -e nmtui # launch networkmanager config tool 
 bindsym $mod+Print exec imgur-screenshot # launch imgur screenshot tool for quick screenshots (mod+prntscrn)
 bindsym $mod+a exec gnome-terminal -e alsamixer # launch alsa mixer (mod+a)
 bindsym $mod+h exec gnome-terminal -e htop # launch htop (mod+h)
-bindsym $mod+k exec surf https://koyu.space/web # launch koyu.space (mod+k)
+bindsym $mod+k exec surf https://pinafore.social # launch pinafore (mod+k)
+bindsym $mod+e exec thunderbird
 
 # shutdown and reboot bindsyms
 # those resemble my display manager "ly" except that you

@@ -1,4 +1,4 @@
-cp ~/.zshrc .
+cp ~/.bashrc .
 mkdir -p .config/yay
 mkdir -p .config/polybar
 mkdir -p .config/i3
