@@ -41,13 +41,13 @@ font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm i3
+modules-left = i3
 modules-center = mpd
-modules-right = pulseaudio xkeyboard memory cpu wlan eth date
+modules-right = pulseaudio powermenu xkeyboard memory cpu wlan eth battery date
 
 tray-position = right
-tray-padding = 2
-;tray-background = #0063ff
+tray-padding = 0
+;tray-background = #112
 
 ;wm-restack = bspwm
 ;wm-restack = i3
@@ -208,7 +208,7 @@ label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-interface = wls3
+interface = wlp3s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -230,7 +230,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = ens2
+interface = enp2s0
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -317,7 +317,7 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT0
+battery = BAT1
 adapter = ADP1
 full-at = 98
 
