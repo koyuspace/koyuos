@@ -168,6 +168,7 @@ exec xfsettingsd
 exec synclient VertScrollDelta=-75
 exec synclient TapButton1=1
 exec echo enable,0xffffffff | sudo tee /proc/acpi/ibm/hotkey
+exec sudo /bin/light -S 100
 
 # custom bindsyms
 # gnome terminal is bae

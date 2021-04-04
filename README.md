@@ -6,7 +6,9 @@ Install [paru](https://aur.archlinux.org/packages/paru) and run `paru -S --neede
 
 ## Poweroff/Reboot
 
-Add yourself to the power group and add the following line to the `/etc/sudoers` file:
+Add yourself to the power and video groups and add the following lines to the `/etc/sudoers` file:
+
 ```
 %power ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
+%video ALL=(ALL) NOPASSWD: /bin/light
 ```
