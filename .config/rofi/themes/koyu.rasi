@@ -1,0 +1,45 @@
+/**
+* koyu rofi theme
+* User: koyu
+* Copyright: koyu
+*/
+
+* {
+  background-color: #223;
+  border-color: transparent;
+  text-color: #fff;
+  font: "Monospace 10";
+}
+
+#window{
+  anchor: north;
+  location: north;
+  width: 100%;
+  padding: 5px;
+  children: [horibox];
+  margin: 4px;
+}
+
+#horibox{
+  orientation: horizontal;
+  children: [prompt,entry,listview];
+}
+
+#listview{
+  layout: horizontal;
+  spacing: 5px;
+  lines: 100;
+}
+
+#entry{
+  expand: false;
+  width: 10em;
+}
+
+#element{
+  padding: 0px2px;
+}
+
+#element selected{
+  background-color: #fe53e1;
+}
