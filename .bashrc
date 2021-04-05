@@ -20,3 +20,6 @@ alias cls="tput reset"
 
 # fuck
 eval "$(thefuck --alias)"
+
+# PATH
+export PATH=~/.local/bin:$PATH
