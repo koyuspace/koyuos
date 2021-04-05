@@ -160,7 +160,7 @@ gaps inner 4
 exec setxkbmap de
 exec xcompmgr
 exec unclutter
-exec feh --bg-scale /home/koyu/.bg.jpg
+exec feh --bg-scale /home/koyu/.bg.png
 exec telegram-desktop -startintray
 exec dropbox
 exec polybar koyu
@@ -175,7 +175,7 @@ exec sudo /bin/light -S 100
 bindsym $mod+b exec google-chrome-stable # launch firefox (mod+b)
 bindsym $mod+t exec telegram-desktop # launch telegram (mod+t)
 bindsym $mod+m exec spotify --no-zygote # launch spotify (mod+m)
-bindsym $mod+l exec i3lock-fancy # lock screen (mod+l)
+bindsym $mod+l exec i3lock-koyu # lock screen (mod+l)
 bindsym $mod+n exec gnome-terminal -e nmtui # launch networkmanager config tool (mod+n)
 bindsym $mod+Print exec imgur-screenshot # launch imgur screenshot tool for quick screenshots (mod+prntscrn)
 bindsym $mod+a exec gnome-terminal -e alsamixer # launch alsa mixer (mod+a)

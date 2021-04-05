@@ -1,0 +1,5 @@
+#!/bin/bash
+scrot -o /tmp/scrot.png
+rm -f /tmp/pixelated.png
+convert -scale 10% -scale 1000% /tmp/scrot.png /tmp/pixelated.png
+i3lock -i /tmp/pixelated.png
