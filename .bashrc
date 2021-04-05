@@ -17,3 +17,6 @@ export EDITOR=vi
 # aliases
 alias resource="source ~/.bashrc"
 alias cls="tput reset"
+
+# fuck
+eval "$(thefuck --alias)"
