@@ -194,3 +194,6 @@ bindsym $mod+Shift+F2 exec sudo reboot # reboot
 
 # remove window borders
 new_window pixel 0
+
+# floating windows whitelist
+for_window [instance="nm-connection-editor"] floating enable
