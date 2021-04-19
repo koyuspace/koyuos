@@ -193,6 +193,9 @@ bindsym $mod+w exec rofi -show window # launch rofi window view (mod+w)
 bindsym $mod+Shift+F1 exec sudo poweroff # shutdown
 bindsym $mod+Shift+F2 exec sudo reboot # reboot
 
+# disable touchpad while typing
+exec syndaemon
+
 # remove window borders
 new_window pixel 0
 
