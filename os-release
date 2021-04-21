@@ -1,0 +1,8 @@
+NAME="koyuOS"
+PRETTY_NAME="koyuOS"
+ID=koyuos
+BUILD_ID=rolling
+HOME_URL="https://koyu.space"
+DOCUMENTATION_URL=""
+SUPPORT_URL=""
+BUG_REPORT_URL=""
