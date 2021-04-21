@@ -1,4 +1,4 @@
-# koyu's dotfiles
+# koyuOS
 
 ## Dependencies
 
