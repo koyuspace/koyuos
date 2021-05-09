@@ -186,6 +186,7 @@ bindsym $mod+c exec discord # launch discord (mod+c)
 bindsym $mod+v exec mumble # launch mumble (mod+v)
 bindsym $mod+w exec rofi -show window # launch rofi window view (mod+w)
 bindsym $mod+g exec gnome-terminal -e amfora # launch amfora (mod+g)
+bindsym $mod+Shift+t exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0') # toggle touchpad (mod+shift+t)
 
 # shutdown and reboot bindsyms
 # those resemble my display manager "ly" except that you
