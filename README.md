@@ -6,7 +6,7 @@ Install [paru](https://aur.archlinux.org/packages/paru) and run `paru -S --neede
 
 ## Installation
 
-If you have installed all dependencies you can continue running the installation script by executing `./install.sh`. You can optionally enable a display-manager to run at every boot with `sudo systemctl enable ly`. If you recently installed koyuOS you have to rebuild your initramfs by running `mkinitcpio -p linux`. Replace `linux` with your kernel of choice. Reboot your machine and you are now booting into koyuOS.
+If you have installed all dependencies you can continue running the installation script by executing `./install.sh`. If you recently installed koyuOS you have to rebuild your initramfs by running `mkinitcpio -p linux`. Replace `linux` with your kernel of choice. Reboot your machine and you are now booting into koyuOS.
 
 ## First boot
 
