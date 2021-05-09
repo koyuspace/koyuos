@@ -7,4 +7,5 @@ sudo cp wakelock.service /lib/systemd/system/wakelock.service
 sudo systemctl enable wakelock
 sudo systemctl enable ly
 sudo systemctl enable bluetooth
+sudo systemctl enable haveged
 sudo cp *-release /etc
