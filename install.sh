@@ -9,4 +9,6 @@ sudo systemctl enable wakelock
 sudo systemctl enable ly
 sudo systemctl enable bluetooth
 sudo systemctl enable haveged
+sudo systemctl enable --now ufw
+sudo ufw enable
 sudo cp *-release /etc
