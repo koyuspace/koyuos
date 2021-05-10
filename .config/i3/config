@@ -174,7 +174,7 @@ exec sudo /bin/light -S 100
 # gnome terminal is bae
 bindsym $mod+b exec firefox # launch firefox (mod+b)
 bindsym $mod+t exec flatpak run org.telegram.desktop # launch telegram (mod+t)
-bindsym $mod+m exec flatpak run com.spotify.Client --no-zygote # launch spotify (mod+m)
+bindsym $mod+m exec gnome-terminal -e spt # launch spotify (mod+m)
 bindsym $mod+l exec i3lock-koyu # lock screen (mod+l)
 bindsym $mod+n exec gnome-terminal -e nmtui # launch networkmanager config tool (mod+n)
 bindsym $mod+Print exec imgur-screenshot # launch imgur screenshot tool for quick screenshots (mod+prntscrn)
