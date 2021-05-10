@@ -1,4 +1,4 @@
 #!/bin/bash
-spotifyd &&
-sleep 5 && spt
+spotifyd $(cat /etc/spotifyd-config)
+spt
 killall spotifyd
