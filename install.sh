@@ -10,5 +10,5 @@ sudo systemctl enable ly
 sudo systemctl enable bluetooth
 sudo systemctl enable haveged
 sudo systemctl enable --now ufw
-sudo ufw enable
+sudo ufw enable > /dev/null
 sudo cp *-release /etc
