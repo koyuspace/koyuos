@@ -38,3 +38,4 @@ gcr
 xf86-input-synaptics
 haveged
 ufw
+bluez-utils
