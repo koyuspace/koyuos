@@ -181,7 +181,7 @@ bindsym $mod+Print exec imgur-screenshot # launch imgur screenshot tool for quic
 bindsym $mod+a exec gnome-terminal -e alsamixer # launch alsa mixer (mod+a)
 bindsym $mod+h exec gnome-terminal -e htop # launch htop (mod+h)
 bindsym $mod+k exec surf https://pinafore.social # launch pinafore (mod+k)
-bindsym $mod+e exec evolution # launch e-mail clent (mod+e)
+bindsym $mod+e exec thunderbird # launch e-mail clent (mod+e)
 bindsym $mod+c exec discord # launch discord (mod+c)
 bindsym $mod+v exec mumble # launch mumble (mod+v)
 bindsym $mod+w exec rofi -show window # launch rofi window view (mod+w)
