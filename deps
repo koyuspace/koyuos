@@ -40,3 +40,5 @@ haveged
 ufw
 bluez-utils
 ntfs-3g
+dosfstools
+exfatprogs
