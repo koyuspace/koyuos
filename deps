@@ -39,3 +39,4 @@ xf86-input-synaptics
 haveged
 ufw
 bluez-utils
+ntfs-3g
