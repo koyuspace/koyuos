@@ -161,7 +161,7 @@ exec setxkbmap de
 exec xcompmgr
 exec unclutter
 exec feh --bg-scale /home/koyu/.bg.png
-exec flatpak run org.telegram.desktop -startintray
+exec telegram-desktop -startintray
 exec dropbox
 exec polybar koyu
 exec xfsettingsd
@@ -173,7 +173,7 @@ exec sudo /bin/light -S 100
 # custom bindsyms
 # gnome terminal is bae
 bindsym $mod+b exec firefox # launch firefox (mod+b)
-bindsym $mod+t exec flatpak run org.telegram.desktop # launch telegram (mod+t)
+bindsym $mod+t exec telegram-desktop # launch telegram (mod+t)
 bindsym $mod+m exec gnome-terminal -e spotify-client # launch spotify (mod+m)
 bindsym $mod+l exec i3lock-koyu # lock screen (mod+l)
 bindsym $mod+n exec gnome-terminal -e nmtui # launch networkmanager config tool (mod+n)
