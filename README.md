@@ -22,7 +22,7 @@ koyuOS already includes a YouTube client called `mps-youtube`. This allows you t
 
 ## First boot
 
-You may want to take a look at the `.config/i3/config` file and change your default browser, media player and keyboard layout. If you want to tweak the polybar (perhaps your network adapters are named differently or your device doesn't have a battery) you can do so by checking out the `.config/polybar/config` file. If you got the terminal open make sure to hide the menu bar, set your theme to Solarized (dark) and change the background color to #223 to make it not solarized.
+You may want to take a look at the `.config/i3/config` file and change your default browser, media player and keyboard layout. If you want to tweak the polybar (perhaps your network adapters are named differently or your device doesn't have a battery) you can do so by checking out the `.config/polybar/config` file. If you got the terminal open make sure to hide the menu bar, set your theme to Solarized (dark) and change the background color to `#223` to make it not solarized.
 
 ## Poweroff/Reboot
 
