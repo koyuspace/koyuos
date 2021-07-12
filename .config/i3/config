@@ -160,7 +160,7 @@ gaps inner 4
 exec setxkbmap de
 exec xcompmgr
 exec unclutter
-exec feh --bg-scale /home/koyu/.bg.png
+exec feh --bg-scale ~/.bg.jpg
 exec telegram-desktop -startintray
 exec dropbox
 exec polybar koyu

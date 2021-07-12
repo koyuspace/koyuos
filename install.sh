@@ -1,5 +1,5 @@
 cp .bashrc ~
-cp .bg.png ~
+cp .bg.jpg ~
 cp -r .config ~
 sudo cp i3lock-koyu /usr/bin/i3lock-koyu
 sudo cp spotify.sh /usr/bin/spotify-client
