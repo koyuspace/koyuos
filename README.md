@@ -10,11 +10,15 @@ If you have installed all dependencies you can continue running the installation
 
 ### Spotify
 
-To get Spotify working please install `spotifyd` and `spotify-tui` using paru. Then create a config file at `/etc/spotifyd-config` with the following line:
+To get Spotify create a config file at `/etc/spotifyd-config` with the following line:
 
 `-u yourusername -p password`
 
 Please note that your Spotify username is your username found on your account settings at spotify.com. Your password can't contain hashtags, because everything after a hashtag would count as comment and is therefore invalid.
+
+### YouTube
+
+koyuOS already includes a YouTube client called `mps-youtube`. This allows you to watch YouTube without having to load up the bloated YouTube.com site and save some CPU cycles for more important stuff like [compiling koyu.space](https://docs.joinmastodon.org/dev/setup/) or playing [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/).
 
 ## First boot
 
