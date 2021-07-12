@@ -160,7 +160,7 @@ gaps inner 4
 exec setxkbmap de
 exec xcompmgr
 exec unclutter
-exec feh --bg-scale ~/.bg.jpg
+exec feh --bg-fill ~/.bg.jpg
 exec telegram-desktop -startintray
 exec dropbox
 exec polybar koyu
@@ -187,6 +187,7 @@ bindsym $mod+v exec mumble # launch mumble (mod+v)
 bindsym $mod+w exec rofi -show window # launch rofi window view (mod+w)
 bindsym $mod+g exec gnome-terminal -e amfora # launch amfora (mod+g)
 bindsym $mod+Shift+t exec synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0') # toggle touchpad (mod+shift+t)
+bindsym $mod+o exec surf https://onenote.office.com # launch onenote
 
 # shutdown and reboot bindsyms
 # those resemble my display manager "ly" except that you
