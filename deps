@@ -25,7 +25,6 @@ noto-fonts-emoji
 noto-fonts-cjk
 nvm
 i3lock-fancy
-light
 bdf-unifont
 siji
 rofi
@@ -34,7 +33,6 @@ scrot
 unclutter
 htop
 amfora
-xf86-input-synaptics
 haveged
 ufw
 bluez-utils
@@ -46,3 +44,4 @@ youtube-dl
 spotifyd
 spotify-tui
 mps-youtube-hd-git
+xf86-video-fbdev

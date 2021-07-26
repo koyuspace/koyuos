@@ -30,7 +30,6 @@ Add yourself to the power and video groups and add the following lines to the `/
 
 ```
 %power ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
-%video ALL=(ALL) NOPASSWD: /bin/light
 ```
 
 ## Screenshot
