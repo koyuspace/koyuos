@@ -36,7 +36,7 @@ Add yourself to the power and video groups and add the following lines to the `/
 %power ALL=(ALL) NOPASSWD: /sbin/poweroff, /sbin/reboot, /sbin/shutdown
 ```
 
-## Raspberry Pi
+## Raspberry Pi (Beta)
 
 Just flash the SD card with the image and resize it with a tool like GParted. The username and password for the user account is `alarm` and the username and password for root is `root`.
 
