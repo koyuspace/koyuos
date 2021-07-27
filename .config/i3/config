@@ -190,8 +190,8 @@ bindsym $mod+o exec surf https://onenote.office.com # launch onenote
 # those resemble my display manager "ly" except that you
 # have to press mod+shift so you don't power down your
 # machine by accident
-bindsym $mod+Shift+F1 exec sudo poweroff # shutdown
-bindsym $mod+Shift+F2 exec sudo reboot # reboot
+bindsym $mod+Shift+F1 exec poweroff # shutdown
+bindsym $mod+Shift+F2 exec reboot # reboot
 
 # remove window borders
 new_window pixel 0
