@@ -38,7 +38,7 @@ Add yourself to the power and video groups and add the following lines to the `/
 
 ## Raspberry Pi (Beta)
 
-Just flash the SD card with the image and resize it with a tool like GParted. The username and password for the user account is `alarm` and the username and password for root is `root`.
+Just flash the SD card with the image you extracted and resize the root partition with a tool like GParted. The username and password for the user account is `alarm` and the username and password for root is `root`. Please note that extracting the 7z archive may take up to an hour, because the resulting image is a little over 6GB uncompressed. Also make sure you have enough space to store the image on your computer.
 
 **Download:** *Images coming soon!*
 
