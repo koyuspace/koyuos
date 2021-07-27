@@ -28,7 +28,7 @@ koyuOS already includes a YouTube client called `mps-youtube`. This allows you t
 
 You may want to take a look at the `.config/i3/config` file and change your default browser, media player and keyboard layout. If you want to tweak the polybar (perhaps your network adapters are named differently or your device doesn't have a battery) you can do so by checking out the `.config/polybar/config` file. If you got the terminal open make sure to hide the menu bar, set your theme to Solarized (dark) and change the background color to `#223` to make it not solarized.
 
-## Raspberry Pi (Beta)
+## Raspberry Pi
 
 Just flash the SD card with the image you extracted and resize the root partition with a tool like GParted. The username and password for the user account is `alarm` and the username and password for root is `root`. Please note that extracting the 7z archive may take up to an hour, because the resulting image is a little over 6GB uncompressed. Also make sure you have enough space to store the image on your computer.
 
