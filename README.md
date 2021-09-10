@@ -6,7 +6,7 @@ Install a fully working vanilla Arch Linux and do the steps below to get koyuOS 
 
 ### Dependencies
 
-Install [paru](https://aur.archlinux.org/packages/paru) and run `paru -S --needed $(cat deps)` in the cloned repository. This will install polybar and other fancy stuff needed for it to work.
+Install [yay](https://aur.archlinux.org/packages/yay) and run `yay -S --needed $(cat deps)` in the cloned repository. This will install polybar and other fancy stuff needed for it to work.
 
 ### Installation
 
