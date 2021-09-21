@@ -34,6 +34,10 @@ Just flash the SD card with the image you extracted and resize the root partitio
 
 **[Download](https://drive.google.com/file/d/1Y09HJmWaHH-2z8schwnTcdut0BL4NVad/view?usp=sharing)**
 
+## Upgrading
+
+To fully upgrade koyuOS run `koyuos-upgrade`. This will ensure not only all packages are going to be upgraded, but also all files for koyuOS itself.
+
 ## Screenshot
 
 This is how koyuOS looks like when fully installed
