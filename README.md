@@ -22,7 +22,7 @@ Please note that your Spotify username is your username found on your account se
 
 #### YouTube
 
-koyuOS already includes a YouTube client called `mps-youtube`. This allows you to watch YouTube without having to load up the bloated YouTube.com site and save some CPU cycles for more important stuff like [compiling koyu.space](https://docs.joinmastodon.org/dev/setup/) or playing [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/).
+koyuOS already includes a YouTube client called `yt`. This allows you to watch YouTube without having to load up the bloated YouTube.com site and save some CPU cycles for more important stuff like [compiling koyu.space](https://docs.joinmastodon.org/dev/setup/) or playing [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/).
 
 ### First boot
 
