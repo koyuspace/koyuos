@@ -17,3 +17,4 @@ sudo systemctl enable haveged
 sudo systemctl enable --now ufw
 sudo ufw enable > /dev/null
 sudo cp *-release /etc
+xdg-user-dirs-update
