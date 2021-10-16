@@ -24,6 +24,10 @@ Please note that your Spotify username is your username found on your account se
 
 koyuOS already includes a YouTube client called `yt`. This allows you to watch YouTube without having to load up the bloated YouTube.com site and save some CPU cycles for more important stuff like [compiling koyu.space](https://docs.joinmastodon.org/dev/setup/) or playing [TF2](https://store.steampowered.com/app/440/Team_Fortress_2/).
 
+#### Anime
+
+koyuOS includes a way to watch anime called `ani-cli`. I can recommend watching some Lain ;)
+
 ### First boot
 
 You may want to take a look at the `.config/i3/config` file and change your default browser, media player and keyboard layout. If you want to tweak the polybar (perhaps your network adapters are named differently or your device doesn't have a battery) you can do so by checking out the `.config/polybar/config` file. If you got the terminal open make sure to hide the menu bar, set your theme to Solarized (dark) and change the background color to `#223` to make it not solarized.
