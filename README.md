@@ -38,7 +38,7 @@ Just flash the SD card with the image you extracted and resize the root partitio
 
 **[Download](https://drive.google.com/file/d/1Y09HJmWaHH-2z8schwnTcdut0BL4NVad/view?usp=sharing)**
 
-**Note: The Raspberry Pi image is likely to be outdated. We'll update the image as soon as possible.*
+**Note: The Raspberry Pi image is likely to be outdated. We'll update the image as soon as possible.**
 
 ## Upgrading
 
