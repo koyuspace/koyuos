@@ -12,7 +12,7 @@ Install [yay](https://aur.archlinux.org/packages/yay) and run `yay -S --needed $
 
 If you have installed all dependencies you can continue running the installation script by executing `./install.sh`. If you recently installed koyuOS you have to rebuild your initramfs by running `mkinitcpio -p linux`. Replace `linux` with your kernel of choice. Reboot your machine and you are now booting into koyuOS.
 
-### Bootloader recommendation
+#### Bootloader recommendation
 
 To properly run koyuOS we recommend using Grub for BIOS and efistubmgr for UEFI. Both make it easy to get koyuOS booting quickly and manage multiple kernels efficiently.
 
