@@ -185,6 +185,7 @@ bindsym $mod+v exec mumble # launch mumble (mod+v)
 bindsym $mod+w exec rofi -show window # launch rofi window view (mod+w)
 bindsym $mod+g exec gnome-terminal -e amfora # launch amfora (mod+g)
 bindsym $mod+o exec surf https://onenote.office.com # launch onenote
+bindsym $mod+Shift+a exec gnome-terminal -e ani-cli
 
 # shutdown and reboot bindsyms
 # those resemble my display manager "ly" except that you
