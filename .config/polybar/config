@@ -41,7 +41,7 @@ font-0 = fixed:pixelsize=10;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
-modules-left = i3
+modules-left = i3 np
 modules-center = mpd
 modules-right = pulseaudio powermenu xkeyboard memory cpu wlan eth battery date
 
@@ -395,6 +395,11 @@ menu-2-0 = power off
 menu-2-0-exec = poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/np]
+type = custom/script
+exec = echo "$(playerctl metadata xesam:artist) – $(playerctl metadata xesam:title)"
+format-underline = #3fb950
 
 [settings]
 screenchange-reload = true
