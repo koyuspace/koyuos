@@ -1,6 +1,7 @@
 cp .bashrc ~
 cp .bg.jpg ~
 cp -r .config ~
+cp .gtkrc-2.0 ~
 sudo cp i3lock-koyu /usr/bin/i3lock-koyu
 sudo cp spotify.sh /usr/bin/spotify-client
 sudo chmod +x /usr/bin/i3lock-koyu
