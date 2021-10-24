@@ -398,8 +398,10 @@ menu-2-1-exec = menu-open-0
 
 [module/np]
 type = custom/script
-exec = echo "$(playerctl metadata xesam:artist) – $(playerctl metadata xesam:title)"
+exec = echo "$(playerctl -p spotifyd metadata xesam:artist) – $(playerctl -p spotifyd metadata xesam:title)"
+exec-if = playerctl -p spotifyd metadata
 format-underline = #3fb950
+interval = 1
 
 [settings]
 screenchange-reload = true
