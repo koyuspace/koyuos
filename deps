@@ -27,7 +27,7 @@ nvm
 i3lock-fancy
 bdf-unifont
 siji-ng
-rofi
+dmenu
 notify-osd
 scrot
 unclutter
@@ -40,7 +40,7 @@ ntfs-3g
 dosfstools
 exfatprogs
 mpv
-youtube-dl
+yt-dlp
 spotifyd
 spotify-tui
 yt

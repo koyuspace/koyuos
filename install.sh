@@ -18,4 +18,5 @@ sudo systemctl enable haveged
 sudo systemctl enable --now ufw
 sudo ufw enable > /dev/null
 sudo cp *-release /etc
+sudo ln -sf /usr/bin/yt-dlp /usr/bin/youtube-dl
 xdg-user-dirs-update
